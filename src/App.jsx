@@ -4,6 +4,6 @@ import Hello from './Components/Hello'
 
 export default (props) => (
     <div>
-       <Hello/>
+       <Hello />
     </div>
 )
