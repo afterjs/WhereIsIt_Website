@@ -1,0 +1,21 @@
+
+.navbar-rg {
+    margin-left: auto !important;
+}
+
+.logoDiv {
+    margin-left: 2rem;
+}
+
+.nav-pd {
+    padding: 1rem;
+}
+
+.titleNav{
+    font-family: 'Roboto', sans-serif;
+    color: #05164B !important;
+}
+
+li {
+    padding: 0px 1.5rem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import Hello from './Components/Hello'
+import Navbar from './Components/Navbar'
 
 
 export default (props) => (
-    <div>
-       <Hello />
-    </div>
+    <>
+    <Navbar></Navbar>
+    </>
 )
