@@ -5,8 +5,8 @@ import Map from "./Map";
 export default props => {
 
     return (
-        <section>
-            <div className="bgImage">
+  
+            <div className="bgImage" id="aboutapp">
                 <div className="alignSection">
                     <div className="aboutAppText">
                         <h1 className="aboutAppTittle">Lorem IPsum!</h1>
@@ -31,7 +31,7 @@ export default props => {
                     </div>
                 </div>
             </div>
-        </section>
+   
     )
 }
 

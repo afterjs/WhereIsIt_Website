@@ -5,7 +5,7 @@ import face from "../Assets/socials/facebook.png"
 
 export default props => {
     return (
-        <div className="sectionAbout">
+        <div className="sectionAbout" id="aboutus">
             <div className="aligAboutSection">
                 <div className="aboutUsFLex">
                     <h1 className="about">Sobre Nós</h1>

@@ -4,6 +4,11 @@
     --main-font: roboto;
 }
 
+.nav-pos {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 .navbar-rg {
     margin-left: auto !important;
 }
@@ -134,8 +139,6 @@ li {
     flex-wrap: wrap;
 }
 
-
-
 .sectionAbout {
     margin-top: 100rem;
     background-color: rgb(255 255 255);
@@ -168,20 +171,16 @@ li {
     text-align: center;
 }
 
-
 .aboutText {
     width: 50rem;
     margin-top: 2rem;
     font-size: 20px;
 }
 
-
 .userImage{
     height: 13rem;
     margin-top: 5rem;
 }
-
-
 
 .ImagesDivFlex {
     display: flex;
@@ -191,9 +190,6 @@ li {
     text-align: center;
 }
 
-
-
-
 .userProfileFlex {
     display: flex;
     justify-content: space-around;
@@ -202,15 +198,12 @@ li {
     flex-flow: column;
 }
 
-
-
 .userProfileText {
     margin-top: 2rem;
     font-family: 'Roboto';
-    color: #05164b;
+    color: var(--main-color);
     font-size: 30px;
 }
-
 
 .socialsFlex{
     margin-top: 1.2rem;
@@ -228,7 +221,6 @@ li {
 .img-pad {
     padding: 0px 10rem;
 }
-
 
 .socialSpace {
     padding: 0px 1rem;

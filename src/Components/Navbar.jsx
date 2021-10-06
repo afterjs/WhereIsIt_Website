@@ -10,8 +10,7 @@ export default props => {
     }
 
     return (
-        <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light nav-pd">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light nav-pd nav-pos"> 
                 <div className="container-fluid">
 
                     <div className="logoDiv">
@@ -25,19 +24,21 @@ export default props => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav navbar-rg">
                             <li className="nav-item">
-                                <a className="nav-link titleNav">Sobre Nós</a>
+                                <a className="nav-link titleNav" href="#aboutapp">O que somos?</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link titleNav" >Download</a>
+                                <a className="nav-link titleNav" href="#aboutus">Sobre Nós</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link titleNav" >Contactos</a>
+                                <a className="nav-link titleNav" href="#download">Download</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link titleNav" href="#contacts"> Contactos</a>
                             </li>
 
                         </ul>
                     </div>
                 </div>
             </nav>
-        </>
     )
 }
