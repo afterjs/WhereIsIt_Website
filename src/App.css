@@ -27,7 +27,7 @@ li {
 
 
 .bgImage{
-   height: 45rem;
+   height: 50rem;
    width: 100%;
    position: absolute;
    z-index: -300;
@@ -49,13 +49,35 @@ li {
 
 
 .test-me {
-   
+    text-align: center;
     color:  #FFFFFF;
     font-family: var(--main-font);
 }
 
-.box {
+.alignSection {
+    margin-top: 4rem;
+    position: relative;
+    padding: 20px;
     display: flex;
-    align-items:center;
- }
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.leaflet-container {
+    border-radius: 20px;
+    width: 50rem;
+    height: 35rem;
+}
+
+
+.storeIconsDiv {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 

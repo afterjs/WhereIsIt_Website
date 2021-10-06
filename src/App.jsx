@@ -4,8 +4,8 @@ import FirstSection from './Components/FirstSection'
 
 
 export default (props) => (
-    <>
-    <Navbar></Navbar>
-    <FirstSection> </FirstSection>
-    </>
+    <div>
+        <Navbar></Navbar>
+        <FirstSection> </FirstSection>
+    </div>
 )
