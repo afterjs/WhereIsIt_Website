@@ -1,4 +1,9 @@
 
+:root {
+    --main-color: #05164B;
+    --main-font: roboto;
+}
+
 .navbar-rg {
     margin-left: auto !important;
 }
@@ -13,9 +18,44 @@
 
 .titleNav{
     font-family: 'Roboto', sans-serif;
-    color: #05164B !important;
+    color: var(--main-color) !important;
 }
 
 li {
     padding: 0px 1.5rem;
 }
+
+
+.bgImage{
+   height: 45rem;
+   width: 100%;
+   position: absolute;
+   z-index: -300;
+   background-image: url('.//Images/bgSection.jpg');
+   background-size: cover;
+   background-repeat: no-repeat, no-repeat;
+   background-position: right, left; 
+}
+
+
+.imgbg {
+    background-color: #3e3e3e;
+    width: 42rem;
+    height: 28rem;
+    top: 10rem;
+    left: 7rem;
+    position: absolute;
+}
+
+
+.test-me {
+   
+    color:  #FFFFFF;
+    font-family: var(--main-font);
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
+
