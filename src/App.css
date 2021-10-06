@@ -8,9 +8,6 @@
     margin-left: auto !important;
 }
 
-.logoDiv {
-    margin-left: 2rem;
-}
 
 .nav-pd {
     padding: 1rem;
@@ -31,7 +28,7 @@ li {
    width: 100%;
    position: absolute;
    z-index: -300;
-   background-image: url('.//Images/bgSection.jpg');
+   background-image: url('.//Assets/sec.jpg');
    background-size: cover;
    background-repeat: no-repeat, no-repeat;
    background-position: right, left; 
@@ -49,13 +46,14 @@ li {
 
 
 .test-me {
+    margin-bottom: 2rem;
     text-align: center;
     color:  #FFFFFF;
     font-family: var(--main-font);
 }
 
 .alignSection {
-    margin-top: 4rem;
+    margin-top: 5rem;
     position: relative;
     padding: 20px;
     display: flex;
@@ -67,10 +65,9 @@ li {
 
 .leaflet-container {
     border-radius: 20px;
-    width: 50rem;
-    height: 35rem;
+    width: 40rem;
+    height: 30rem;
 }
-
 
 .storeIconsDiv {
     justify-content: space-evenly;
@@ -80,4 +77,16 @@ li {
 }
 
 
+.aboutAppText {
+    width: 30rem;
+    color: white;
+}
 
+.aboutAppTittle {
+    padding: 2rem;
+    text-align: center;
+}
+
+.aboutAppJustifyText {
+    text-align: justify;    
+}

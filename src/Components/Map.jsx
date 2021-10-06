@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer } from 'react-leaflet'
 import MarkerMap from ".//Layout/MarkerMap"
 import L from 'leaflet';
-import lixo from '../Images/Pins/lixo-pin.png'
-import caixa from '../Images/Pins/caixa-pin.png'
+import lixo from '../Assets/Pins/lixo-pin.png'
+import caixa from '../Assets/Pins/caixa-pin.png'
 import data from './/Data/mapData'
 
 export default props => {
@@ -28,8 +28,6 @@ export default props => {
     }
 
   
-
-
 
     function getMapData() {
         return data.map(schema => {

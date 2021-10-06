@@ -1,8 +1,8 @@
 import React from "react";
 import Map from "./Map";
-import phones from "../Images/phones.png"
-import appStore from "../Images/appstore.png"
-import playstore from "../Images/playstore.png"
+import phones from "../Assets/phones.png"
+import appStore from "../Assets/appstore.png"
+import playstore from "../Assets/playstore.png"
 
 
 export default props => {
@@ -17,29 +17,37 @@ export default props => {
 
     return (
         <div className="bgImage">
+          
 
-            <div className="alignSection">
-                <div>
-                    <h1 className="test-me">Testa-me!</h1>
-                    <Map></Map>
-                </div>
-
-
-                <div >
-                    <img src={phones} style={phoneStyle} />
-
-                    <div className="storeIconsDiv">
-                        <div>
-                            <img src={appStore} style={phoneSize}/>
-                        </div>
-                        <div>
-                            <img src={playstore} style={phoneSize}/>
-                        </div>
+                <div className="alignSection">
+                   
+                    <div className="aboutAppText"> 
+                    <h1 className="aboutAppTittle">Lorem IPsum!</h1>
+                        <p className="aboutAppJustifyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Quisque eget ante eu ligula iaculis scelerisque in et augue. 
+                                Maecenas rhoncus convallis massa. 
+                                Donec urna urna, pretium vitae nisi eget, efficitur tempor diam. 
+                                Pellentesque fringilla ipsum a urna dictum, vitae 
+                                tincidunt lectus ornare.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Quisque eget ante eu ligula iaculis scelerisque in et augue. 
+                                Maecenas rhoncus convallis massa. 
+                                Donec urna urna, pretium vitae nisi eget, efficitur tempor diam. 
+                                Pellentesque fringilla ipsum a urna dictum, vitae 
+                                tincidunt lectus ornare.
+                                
+                        </p>
                     </div>
+                    <div>
+                        <h1 className="test-me">Testa-me!</h1>
+                        <Map></Map>
+                    </div>
+
                 </div>
+
             </div>
 
-        </div>
+    
     )
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-import CompanyLogo from "../Images/mapa.png";
+import CompanyLogo from "../Assets/mapa.png";
 
 
 export default props => {
