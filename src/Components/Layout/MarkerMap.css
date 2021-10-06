@@ -1,5 +1,47 @@
+.divPopUp {
 
-.popUp {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.namebtnMap {
+    color: white;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+.trashPin {
+    font-family: 'Roboto';
+    font-size: 1.1rem;
     color: #70be44;
+    text-align: center;
+}
+
+
+
+.bank-pin {
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    color: #05164B;
+    text-align: center;
+}
+
+
+
+.pd-div {
+    padding: 1rem;
+}
+
+
+.specsCoord {
+
+font-family: "Roboto";
+}
+
+
+.al-ce {
     text-align: center;
 }
