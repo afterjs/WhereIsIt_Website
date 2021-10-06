@@ -28,7 +28,7 @@ li {
    width: 100%;
    position: absolute;
    z-index: -300;
-   background-image: url('.//Assets/sec.jpg');
+   background-image: url('.//Assets/Backgrounds/bgMain.jpg');
    background-size: cover;
    background-repeat: no-repeat, no-repeat;
    background-position: right, left; 
@@ -69,7 +69,54 @@ li {
     height: 30rem;
 }
 
+
+.aboutAppText {
+    width: 30rem;
+    color: white;
+}
+
+.downloadInformation{
+    width: 30rem;
+    color: var(--main-color);
+}
+
+
+.aboutAppTittle {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.DownloadAppTittle {
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+
+
+.DownloadAppJustifyText {
+    text-align: justify;    
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+
+
+
+.aboutAppJustifyText {
+    text-align: justify;    
+}
+
+
+.sectionDonwload {
+    margin-top: 50rem;
+    background-color: rgb(241, 241, 245);
+    height: 45rem;
+    width: 100%;
+    position: absolute;
+}
+
+
 .storeIconsDiv {
+    padding: 2rem;
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
@@ -77,16 +124,12 @@ li {
 }
 
 
-.aboutAppText {
-    width: 30rem;
-    color: white;
-}
-
-.aboutAppTittle {
-    padding: 2rem;
-    text-align: center;
-}
-
-.aboutAppJustifyText {
-    text-align: justify;    
+.aligAboutSection {
+    position: relative;
+    padding: 20px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }

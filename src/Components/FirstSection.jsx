@@ -1,53 +1,37 @@
 import React from "react";
 import Map from "./Map";
-import phones from "../Assets/phones.png"
-import appStore from "../Assets/appstore.png"
-import playstore from "../Assets/playstore.png"
 
 
 export default props => {
 
-    const phoneStyle = {
-        height: "35rem",
-    }
-
-    const phoneSize = {
-        height: "3rem"
-    }
-
     return (
-        <div className="bgImage">
-          
-
+        <section>
+            <div className="bgImage">
                 <div className="alignSection">
-                   
-                    <div className="aboutAppText"> 
-                    <h1 className="aboutAppTittle">Lorem IPsum!</h1>
-                        <p className="aboutAppJustifyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Quisque eget ante eu ligula iaculis scelerisque in et augue. 
-                                Maecenas rhoncus convallis massa. 
-                                Donec urna urna, pretium vitae nisi eget, efficitur tempor diam. 
-                                Pellentesque fringilla ipsum a urna dictum, vitae 
-                                tincidunt lectus ornare.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Quisque eget ante eu ligula iaculis scelerisque in et augue. 
-                                Maecenas rhoncus convallis massa. 
-                                Donec urna urna, pretium vitae nisi eget, efficitur tempor diam. 
-                                Pellentesque fringilla ipsum a urna dictum, vitae 
-                                tincidunt lectus ornare.
-                                
+                    <div className="aboutAppText">
+                        <h1 className="aboutAppTittle">Lorem IPsum!</h1>
+                        <p className="aboutAppJustifyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
+                            Maecenas rhoncus convallis massa.
+                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
+                            Pellentesque fringilla ipsum a urna dictum, vitae
+                            tincidunt lectus ornare.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
+                            Maecenas rhoncus convallis massa.
+                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
+                            Pellentesque fringilla ipsum a urna dictum, vitae
+                            tincidunt lectus ornare.
+
                         </p>
                     </div>
                     <div>
                         <h1 className="test-me">Testa-me!</h1>
                         <Map></Map>
                     </div>
-
                 </div>
-
             </div>
-
-    
+        </section>
     )
 }
 
