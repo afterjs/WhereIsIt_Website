@@ -3,3 +3,21 @@
 body {
     background-color: #ffffff;
 }
+
+h1 {
+    font-size: 3.5rem;
+}
+
+input {
+    background-color: #000000b3;
+    color: white;
+    width: 30rem;
+    border: 2px solid white;
+    height: 2.5rem;
+    
+}
+
+
+input:focus {
+    border: 2px solid white;
+}

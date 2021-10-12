@@ -225,3 +225,54 @@ li {
 .socialSpace {
     padding: 0px 1rem;
 }
+
+
+.bgContact {
+    height: 50rem;
+    margin-top: 155rem;
+    width: 100%;
+    position: absolute;
+    z-index: -300;
+    background-image: url('.//Assets/Backgrounds/bgContacts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+ }
+
+ .mt-20 {
+     margin-top: 2.5rem;
+ }
+
+ .contactosTitle {
+     text-align: center;
+     color: white;
+ }
+
+ 
+
+ .contactForm{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.contactoTitles {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 30px;
+}
+
+.flexBoxContactInputs{
+    margin-top: 1.2rem;
+    display: flex;
+    padding: 0px 5rem;
+
+    align-items: flex-start;
+    flex-flow: column;
+    text-align: center;
+}
