@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+
 body {
-    font-family: fantasy;
-    font-weight: 300;
-    font-size: 1.4rem;
-    background-color: #444;
-    color: #FFFFFF;
-    text-align: center;
+    background-color: #ffffff;
 }
 
-h1{
-    font-weight: 300;
+h1 {
+    font-size: 3.5rem;
+}
+
+input {
+    background-color: #000000b3;
+    color: white;
+    width: 30rem;
+    border: 2px solid white;
+    height: 2.5rem;
+    
 }
 
 
-.valor {
-    color:"red";
-    font-family:"fantasy";
-    font-size:"3rem";
+textarea {
+    background-color: #000000b3;
+    color: white;
+   
+    border: 2px solid white;
+   
+    overflow-y: hidden;
+    
+}
+
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+input:focus {
+    border: 2px solid white;
 }

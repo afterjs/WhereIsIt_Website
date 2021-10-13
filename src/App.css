@@ -1,0 +1,301 @@
+
+:root {
+    --main-color: #05164B;
+    --main-font: roboto;
+}
+
+.nav-pos {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-rg {
+    margin-left: auto !important;
+}
+
+
+.nav-pd {
+    padding: 1rem;
+}
+
+.titleNav{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color) !important;
+}
+
+li {
+    padding: 0px 1.5rem;
+}
+
+
+.bgImage{
+   height: 50rem;
+   width: 100%;
+   position: absolute;
+   z-index: -300;
+   background-image: url('.//Assets/Backgrounds/bgMain.jpg');
+   background-size: cover;
+   background-repeat: no-repeat, no-repeat;
+   background-position: right, left; 
+}
+
+
+.imgbg {
+    background-color: #3e3e3e;
+    width: 42rem;
+    height: 28rem;
+    top: 10rem;
+    left: 7rem;
+    position: absolute;
+}
+
+
+.test-me {
+    margin-bottom: 2rem;
+    text-align: center;
+    color:  #FFFFFF;
+    font-family: var(--main-font);
+}
+
+.alignSection {
+    margin-top: 5rem;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.leaflet-container {
+    border-radius: 20px;
+    width: 40rem;
+    height: 30rem;
+}
+
+
+.aboutAppText {
+    width: 30rem;
+    color: white;
+}
+
+.downloadInformation{
+    width: 30rem;
+    color: var(--main-color);
+}
+
+
+.aboutAppTittle {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.DownloadAppTittle {
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+
+
+.DownloadAppJustifyText {
+    text-align: justify;    
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+    font-size: 20px;
+}
+
+.aboutAppJustifyText {
+    text-align: justify;    
+    font-size: 20px;
+}
+
+
+.sectionDonwload {
+    margin-top: 50rem;
+    background-color: rgb(241, 241, 245);
+    width: 100%;
+    position: absolute;
+    height: 47rem;
+}
+
+
+.storeIconsDiv {
+    padding: 2rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.aligDownloadSection {
+    position: relative;
+    padding: 20px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sectionAbout {
+    margin-top: 100rem;
+    background-color: rgb(255 255 255);
+    height: 45rem;
+    width: 100%;
+    position: absolute;
+}
+
+.aligAboutSection {
+    position: relative;
+    padding: 20px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.about {
+    color: var(--main-color);
+    text-align: center;
+}
+
+.aboutUsFLex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.aboutText {
+    width: 50rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.userImage{
+    height: 13rem;
+    margin-top: 5rem;
+}
+
+.ImagesDivFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.userProfileFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.userProfileText {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.socialsFlex{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.face {
+    width: 2rem;
+}
+
+.img-pad {
+    padding: 0px 10rem;
+}
+
+.socialSpace {
+    padding: 0px 1rem;
+}
+
+
+.bgContact {
+    height: 50rem;
+    margin-top: 155rem;
+    width: 100%;
+    position: absolute;
+    z-index: -300;
+    background-image: url('.//Assets/Backgrounds/bgContacts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+ }
+
+ .mt-20 {
+     margin-top: 2.5rem;
+ }
+
+ .contactosTitle {
+     text-align: center;
+     color: white;
+ }
+
+ 
+
+ .contactForm{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.contactFormArea{
+
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.contactoTitles {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 30px;
+}
+
+.flexBoxContactInputs{
+    margin-top: 1.2rem;
+    display: flex;
+    padding: 0px 5rem;
+
+    align-items: flex-start;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+.flexBoxContactArea{
+    margin-top: 1.2rem;
+    display: flex;
+    padding: 0px 5rem;
+
+    align-items: flex-start;
+    flex-flow: column;
+    text-align: center;
+
+}
