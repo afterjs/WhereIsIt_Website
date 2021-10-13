@@ -26,13 +26,13 @@ export default props => {
                     <div>
                         <div className="flexBoxContactInputs">
                             <p className="contactoTitles">Nome</p>
-                            <input ></input>
+                            <input name="nome"></input>
                         </div>
                     </div>
                     <div>
                         <div className="flexBoxContactInputs">
                             <p className="contactoTitles">Email</p>
-                            <input ></input>
+                            <input type="email" name="email"></input>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ export default props => {
                     <div>
                         <div className="flexBoxContactArea">
                             <p className="contactoTitles">Assunto</p>
-                            <textarea rows="7" cols="110"></textarea>
+                            <textarea rows="7" cols="110" name="mensagem"></textarea>
                         </div>
                     </div>
                     <div>

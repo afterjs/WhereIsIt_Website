@@ -300,7 +300,7 @@ li {
 
 }
 
-<<<<<<< HEAD
+
 .btnEnviar {
     position: absolute;
     width: 377px;
@@ -318,7 +318,7 @@ li {
 textarea {
     resize: none;
 }
-=======
+
 .footer {
     height:5rem;
     margin-top: 200rem;
@@ -338,4 +338,4 @@ textarea {
     text-align: center;
     
   }
->>>>>>> 7967a00fa537728d754ac8f138e573075ae70e09
+
