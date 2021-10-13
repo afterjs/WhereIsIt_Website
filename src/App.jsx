@@ -4,6 +4,7 @@ import AboutApp from './Components/AboutApp'
 import Download from "./Components/Download";
 import About from "./Components/About";
 import Contacts from "./Components/Contacts";
+import Footer from "./Components/Footer";
 
 export default (props) => (
     <div>
@@ -12,5 +13,6 @@ export default (props) => (
         <Download></Download>
         <About></About>
         <Contacts></Contacts>
+        <Footer></Footer>
     </div>
 )
