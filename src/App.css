@@ -260,6 +260,17 @@ li {
 }
 
 
+.contactFormArea{
+
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
 .contactoTitles {
     margin-top: 2rem;
     font-family: 'Roboto';
@@ -275,4 +286,16 @@ li {
     align-items: flex-start;
     flex-flow: column;
     text-align: center;
+}
+
+
+.flexBoxContactArea{
+    margin-top: 1.2rem;
+    display: flex;
+    padding: 0px 5rem;
+
+    align-items: flex-start;
+    flex-flow: column;
+    text-align: center;
+
 }

@@ -12,9 +12,6 @@ export default [
     {id: 11, lat: 41.699875905491545, long: -8.786979148877379, icon: 0, classe:"bank-pin", name:"Caixa de Multibanco"},
     {id: 12, lat: 41.707168079233675, long: -8.775063470123047, icon: 0, classe:"bank-pin", name:"Caixa de Multibanco"},
     {id: 13, lat: 41.84919767245821, long: -8.85688914063585, icon: 1, classe:"trashPin", name:"Contentor de LIxo"},
-
-    
-
 ]
 
 
