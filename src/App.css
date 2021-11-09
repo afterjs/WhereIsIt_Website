@@ -1,4 +1,3 @@
-
 :root {
     --main-color: #05164B;
     --main-font: roboto;
@@ -13,7 +12,6 @@
     margin-left: auto !important;
 }
 
-
 .nav-pd {
     padding: 1rem;
 }
@@ -27,7 +25,6 @@ li {
     padding: 0px 1.5rem;
 }
 
-
 .bgImage{
    height: 50rem;
    width: 100%;
@@ -39,7 +36,6 @@ li {
    background-position: right, left; 
 }
 
-
 .imgbg {
     background-color: #3e3e3e;
     width: 42rem;
@@ -48,7 +44,6 @@ li {
     left: 7rem;
     position: absolute;
 }
-
 
 .test-me {
     margin-bottom: 2rem;
@@ -67,13 +62,11 @@ li {
     flex-wrap: wrap;
 }
 
-
 .leaflet-container {
     border-radius: 20px;
     width: 40rem;
     height: 30rem;
 }
-
 
 .aboutAppText {
     width: 30rem;
@@ -84,7 +77,6 @@ li {
     width: 30rem;
     color: var(--main-color);
 }
-
 
 .aboutAppTittle {
     padding: 2rem;
@@ -98,7 +90,6 @@ li {
     text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
-
 .DownloadAppJustifyText {
     text-align: justify;    
     text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
@@ -110,7 +101,6 @@ li {
     font-size: 20px;
 }
 
-
 .sectionDonwload {
     margin-top: 50rem;
     background-color: rgb(241, 241, 245);
@@ -119,7 +109,6 @@ li {
     height: 47rem;
 }
 
-
 .storeIconsDiv {
     padding: 2rem;
     justify-content: space-evenly;
@@ -127,7 +116,6 @@ li {
     flex-wrap: wrap;
     align-items: center;
 }
-
 
 .aligDownloadSection {
     position: relative;
@@ -156,7 +144,6 @@ li {
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 .about {
     color: var(--main-color);
@@ -226,7 +213,6 @@ li {
     padding: 0px 1rem;
 }
 
-
 .bgContact {
     height: 50rem;
     margin-top: 155rem;
@@ -237,20 +223,18 @@ li {
     background-size: cover;
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
- }
+}
 
- .mt-20 {
-     margin-top: 2.5rem;
- }
+.mt-20 {
+    margin-top: 2.5rem;
+}
 
- .contactosTitle {
-     text-align: center;
-     color: white;
- }
+.contactosTitle {
+    text-align: center;
+    color: white;
+}
 
- 
-
- .contactForm{
+.contactForm{
     margin-top: 1.2rem;
     display: flex;
     justify-content: center;
@@ -261,7 +245,6 @@ li {
 
 
 .contactFormArea{
-
     margin-top: 1.2rem;
     display: flex;
     justify-content: center;
@@ -282,7 +265,6 @@ li {
     margin-top: 1.2rem;
     display: flex;
     padding: 0px 5rem;
-
     align-items: flex-start;
     flex-flow: column;
     text-align: center;
@@ -293,11 +275,9 @@ li {
     margin-top: 1.2rem;
     display: flex;
     padding: 0px 5rem;
-
     align-items: flex-start;
     flex-flow: column;
     text-align: center;
-
 }
 
 
@@ -308,7 +288,6 @@ li {
     left: 40%;
     top: 650px;
     align-items: center;
-
     background: rgba(0, 0, 0, 0.76);
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -326,9 +305,9 @@ textarea {
     position: absolute;
     z-index: -300;
     background-color: #FFFFFF;
-  }
+}
 
-  .flexBoxCpr {
+.flexBoxCpr {
     color: var(--main-color);
     margin-top: 2rem;
     display: flex;
@@ -336,6 +315,5 @@ textarea {
     align-items: center;
     flex-flow: column;
     text-align: center;
-    
-  }
+}
 

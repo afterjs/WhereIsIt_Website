@@ -1,11 +1,9 @@
 .divPopUp {
-
     display: flex;
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 
 .namebtnMap {
@@ -20,8 +18,6 @@
     text-align: center;
 }
 
-
-
 .bank-pin {
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -29,16 +25,12 @@
     text-align: center;
 }
 
-
-
 .pd-div {
     padding: 1rem;
 }
 
-
 .specsCoord {
-
-font-family: "Roboto";
+    font-family: "Roboto";
 }
 
 

@@ -57,7 +57,7 @@ export default props => {
                                     <img src={userImage} className="userImage" />
                                 </div>
                                 <div>
-                                    <p className="userProfileText">Ricardo Amaro</p>
+                                    <p className="userProfileText">Hugo Diniz</p>
                                     <span >Fullstack Developer</span>
                                 </div>
                                 <div>

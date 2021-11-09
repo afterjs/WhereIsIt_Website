@@ -14,18 +14,14 @@ input {
     width: 30rem;
     border: 2px solid white;
     height: 2.5rem;
-    
 }
 
 
 textarea {
     background-color: #000000b3;
     color: white;
-   
     border: 2px solid white;
-   
     overflow-y: hidden;
-    
 }
 
 
@@ -33,7 +29,6 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
     width: 100%;
 }
 
