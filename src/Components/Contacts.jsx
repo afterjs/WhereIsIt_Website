@@ -23,31 +23,25 @@ export default props => {
             <div className="mt-20">
                 <h1 className="contactosTitle">Contactos</h1>
                 <div className="contactForm"> {/*div form topo*/}
-                    <div>
-                        <div className="flexBoxContactInputs">
-                            <p className="contactoTitles">Nome</p>
-                            <input name="nome"></input>
-                        </div>
+                    <div className="flexBoxContactInputs">
+                        <p className="contactoTitles">Nome</p>
+                        <input name="nome"></input>
                     </div>
-                    <div>
-                        <div className="flexBoxContactInputs">
-                            <p className="contactoTitles">Email</p>
-                            <input type="email" name="email"></input>
-                        </div>
+
+                    <div className="flexBoxContactInputs">
+                        <p className="contactoTitles">Email</p>
+                        <input type="email" name="email"></input>
                     </div>
                 </div>
 
                 <div className="contactFormArea"> {/*div form topo*/}
-                    <div>
-                        <div className="flexBoxContactArea">
-                            <p className="contactoTitles">Assunto</p>
-                            <textarea rows="7" cols="110" name="mensagem"></textarea>
-                        </div>
+                    <div className="flexBoxContactArea">
+                        <p className="contactoTitles">Assunto</p>
+                        <textarea rows="7" cols="110" name="mensagem"></textarea>
                     </div>
-                    <div>
-                        <div className="flexBoxContactInputs">
-                            <input type="submit" className="btnEnviar" value="ENVIAR MENSAGEM"></input>
-                        </div>
+
+                    <div className="flexBoxContactInputs">
+                        <input type="submit" className="btnEnviar" value="ENVIAR MENSAGEM"></input>
                     </div>
                 </div>
             </div>
