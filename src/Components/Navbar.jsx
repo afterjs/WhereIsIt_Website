@@ -24,6 +24,9 @@ export default props => {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav navbar-rg">
                         <li className="nav-item">
+                            <a target="_blank" className="nav-link titleNav" href="https://documenter.getpostman.com/view/18968972/UVRGFjpB">Documentação</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link titleNav" href="#aboutapp">O que somos?</a>
                         </li>
                         <li className="nav-item">
