@@ -31,19 +31,11 @@ export default (props) => {
                         
                     </div>
                     <div className="downloadInformation">
-                        <h1 className="DownloadAppTittle">Lorem Ipsum!</h1>
-                        <p className="DownloadAppJustifyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.
+                        <h1 className="DownloadAppTittle">Downloads</h1>
+                        <p className="DownloadAppJustifyText"><span className="tab"></span>O objetivo será lançar a 
+                        aplicação tanto para Android, como para iOS de forma a que app
+                        possa correr em vários dispositivos de modo a abranger o máximo
+                        de utilizadores possíveis.
                         </p>
                     </div>
                 </div>

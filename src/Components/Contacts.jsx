@@ -23,24 +23,25 @@ export default props => {
             <div className="mt-20">
                 <h1 className="contactosTitle">Contactos</h1>
                 <div className="contactForm"> {/*div form topo*/}
-                    <div className="flexBoxContactInputs">
-                        <p className="contactoTitles">Nome</p>
-                        <input name="nome"></input>
-                    </div>
-
-                    <div className="flexBoxContactInputs">
-                        <p className="contactoTitles">Email</p>
-                        <input type="email" name="email"></input>
+                    <div className="flexBoxContactInputs NomeEmail">
+                        <div className="widthDivs">
+                            <p className="contactoTitles">Nome</p>
+                            <input name="nome" required></input>
+                        </div>
+                        <div className="widthDivs">
+                            <p className="contactoTitles">Email</p>
+                            <input type="email" name="email" required></input>
+                        </div>
                     </div>
                 </div>
 
                 <div className="contactFormArea"> {/*div form topo*/}
                     <div className="flexBoxContactArea">
                         <p className="contactoTitles">Assunto</p>
-                        <textarea rows="7" cols="110" name="mensagem"></textarea>
+                        <textarea rows="7" cols="110" name="mensagem" required></textarea>
                     </div>
 
-                    <div className="flexBoxContactInputs">
+                    <div className="flexBoxContactInputs flexBtn">
                         <input type="submit" className="btnEnviar" value="ENVIAR MENSAGEM"></input>
                     </div>
                 </div>

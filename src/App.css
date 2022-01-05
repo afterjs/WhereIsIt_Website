@@ -42,6 +42,15 @@ li {
    background-position: right, left; 
 }
 
+.NomeEmail{
+    display: flex;
+    place-content: space-between;
+}
+
+.divMap {
+    width: 40%;
+}
+
 .imgbg {
     background-color: #3e3e3e;
     width: 42rem;
@@ -71,13 +80,14 @@ li {
 
 .leaflet-container {
     border-radius: 20px;
-    width: 40rem;
+    width: auto;
     height: 30rem;
 }
 
 .aboutAppText {
     max-width: 30rem;
     color: white;
+    text-shadow: 4px 4px black;
 }
 
 .downloadInformation{
@@ -149,7 +159,9 @@ li {
 .about {
     color: var(--main-color);
     text-align: center;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
+
 
 .aboutUsFLex {
     display: flex;
@@ -162,6 +174,8 @@ li {
 .aboutText {
     max-width: 50rem;
     margin-top: 2rem;
+    text-align: center;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
     font-size: 20px;
 }
 
@@ -236,7 +250,7 @@ li {
 }
 
 .contactForm {
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -244,11 +258,14 @@ li {
     text-align: left;
 }
 
+.widthDivs{
+    width: 45%;
+}
 
 .contactFormArea{
     display: flex;
     justify-content: flex-start;
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
     text-align: center;
@@ -263,26 +280,37 @@ li {
 }
 
 .flexBoxContactInputs {
+    margin: auto;
     margin-top: 1.2rem;
     width: 100%;
+    max-width: 75%;
     padding: 0;
 }
 
-
+.flexBtn {
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 50%;
+}
 .flexBoxContactArea{
+    margin: auto;
     display: flex;
     padding: 0;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 75%;
     align-items: flex-start;
     text-align: center;
 }
 
-
 .btnEnviar {
     width: 100%;
     height: 69px;
-    margin: 40px 0;
+    margin: auto;
+    margin-top: 5%;
     align-items: center;
     max-width: 75%;
     background: rgba(0, 0, 0, 0.76);
@@ -298,7 +326,6 @@ textarea {
     height: 100%;
     width: 100%;
     position: relative;
-
     background-color: #FFFFFF;
 }
 
@@ -312,11 +339,60 @@ textarea {
     text-align: center;
 }
 
-@media (max-width:1200px) {
+.nftSection {
+    background-color: lightgray;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding: 15px;
+}
+
+.nftFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nftHead {
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nftImages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.nftImage {
+    width: 50%;
+    height: 50%;
+}
+
+.nftText {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+@media (max-width:1500px) {
     .bgImage{
         height: 100%;
     }
 
+    .flexBoxContactArea {
+        max-width: 75%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+    }
 
 }
 

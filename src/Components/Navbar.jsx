@@ -35,11 +35,12 @@ export default props => {
                         <li className="nav-item">
                             <a className="nav-link titleNav" href="#aboutus">Sobre Nós</a>
                         </li>
-
+                        <li className="nav-item">
+                            <a className="nav-link titleNav" href="#nfts"> NFTS</a>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link titleNav" href="#contacts"> Contactos</a>
                         </li>
-
                     </ul>
                 </div>
             </div>

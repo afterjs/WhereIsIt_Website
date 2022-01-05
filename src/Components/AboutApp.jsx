@@ -9,23 +9,17 @@ export default props => {
             <div className="bgImage" id="aboutapp">
                 <div className="alignSection">
                     <div className="aboutAppText">
-                        <h1 className="aboutAppTittle">Lorem IPsum!</h1>
-                        <p className="aboutAppJustifyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.
-
+                        <h1 className="aboutAppTittle">WhereIsIt</h1>
+                        <p className="aboutAppJustifyText">A WhereIsIt foi uma aplicação criada com o intuito de disponibilizar
+                            aos seus utilizadores uma ferramenta de apoio na localização
+                            de vários serviços públicos da qual estes mesmos possam usufruir
+                            sempre que tiverem necessidade de tal.
+                            <br></br>
+                            A página web foi desenvolvida usando React e a aplicação móvel foi desenvolvida com React Native.
+                            Para o armazenamento e manuseamento de dados usamos a base de dados Firebase.
                         </p>
                     </div>
-                    <div>
+                    <div className="divMap">
                         <h1 className="test-me">Testa-me!</h1>
                         <Map></Map>
                     </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import userImage from "../Assets/user.jpg"
-import face from "../Assets/socials/facebook.png"
-
+import Developer from "../Assets/Developers/developer.jpg"
+import Face from "../Assets/socials/facebook.png"
+import Dragao from "../Assets/Developers/dragao.jpg"
 
 export default props => {
     return (
@@ -10,26 +10,20 @@ export default props => {
                 <div className="aboutUsFLex">
                     <h1 className="about">Sobre Nós</h1>
                     <div className="aboutText">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Quisque eget ante eu ligula iaculis scelerisque in et augue.
-                            Maecenas rhoncus convallis massa.
-                            Donec urna urna, pretium vitae nisi eget, efficitur tempor diam.
-                            Pellentesque fringilla ipsum a urna dictum, vitae
-                            tincidunt lectus ornare.</p>
+                        <p>Ambos alunos a frequentar o Instituto Politécnico de Viana do Castelo,
+                            frequentam o CTeSP de Tecnologias e Programação de Sistemas de Informação
+                            com o intuito de aprender mais nas várias áreas de informática para futuramente
+                            trabalhar na área.<br></br>
+                            Fizeram um curso profissional no secundário baseado na mesma área que o atual curso
+                            onde conseguiram abranger algumas bases a nivel de informática.
+                        </p>
                     </div>
 
                     <div className="ImagesDivFlex">
                         <div>
-
                             <div className="userProfileFlex">
                                 <div className="img-pad ">
-                                    <img src={userImage} className="userImage" />
+                                    <img src={Dragao} className="userImage" />
                                 </div>
                                 <div>
                                     <p className="userProfileText">Ricardo Amaro</p>
@@ -38,23 +32,22 @@ export default props => {
                                 <div>
                                     <div className="socialsFlex">
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div>
                             <div className="userProfileFlex">
                                 <div className="img-pad ">
-                                    <img src={userImage} className="userImage" />
+                                    <img src={Developer} className="userImage" />
                                 </div>
                                 <div>
                                     <p className="userProfileText">Hugo Diniz</p>
@@ -63,21 +56,19 @@ export default props => {
                                 <div>
                                     <div className="socialsFlex">
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                         <div className="socialSpace">
-                                            <img src={face} className="face" />
+                                            <img src={Face} className="face" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
