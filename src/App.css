@@ -402,12 +402,65 @@ textarea {
   }
 }
 
+@media (max-width: 580px) {
+  .bgImage {
+    height: 100%;
+    width: 36rem;
+  }
+
+  .sectionDonwload {
+    background-color: rgb(241, 241, 245);
+    width: 100%;
+    position: relative;
+    height: 100%;
+    width: 36rem;
+  }
+
+  .sectionAbout {
+    margin-top: 40px;
+    background-color: rgb(255 255 255);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    width: 36rem;
+  }
+
+  .nftSection {
+    background-color: lightgray;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding: 15px;
+    width: 36rem;
+  }
+
+  .bgContact {
+    height: 100%;
+    width: 36rem;
+    position: relative;
+    padding: 40px 0;
+
+    background-image: url(".//Assets/Backgrounds/bgContacts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+  }
+
+  .footer {
+    height: 100%;
+    width: 36rem;
+    position: relative;
+    background-color: #ffffff;
+  }
+}
+
 @media (max-width: 600px) {
   .aboutText {
     max-width: 80%;
     margin: 0 auto;
   }
 }
+
 
 @media (max-width: 992px) {
   .btnWallet {
