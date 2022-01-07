@@ -1,7 +1,8 @@
 import React from "react";
-import Developer from "../Assets/Developers/developer.jpg"
+
 import Face from "../Assets/socials/facebook.png"
-import Dragao from "../Assets/Developers/dragao.jpg"
+import Hugo from "../Assets/Developers/hugo.jpg"
+import Ricardo from "../Assets/Developers/ricardo.jpeg"
 
 export default props => {
     return (
@@ -23,7 +24,7 @@ export default props => {
                         <div>
                             <div className="userProfileFlex">
                                 <div className="img-pad ">
-                                    <img src={Dragao} className="userImage" />
+                                    <img src={Ricardo} className="userImage" />
                                 </div>
                                 <div>
                                     <p className="userProfileText">Ricardo Amaro</p>
@@ -47,7 +48,7 @@ export default props => {
                         <div>
                             <div className="userProfileFlex">
                                 <div className="img-pad ">
-                                    <img src={Developer} className="userImage" />
+                                    <img src={Hugo} className="userImage" />
                                 </div>
                                 <div>
                                     <p className="userProfileText">Hugo Diniz</p>

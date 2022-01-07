@@ -1,404 +1,418 @@
 :root {
-    --main-color: #05164B;
-    --main-font: roboto;
+  --main-color: #05164b;
+  --main-font: roboto;
 }
 
 input {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-pos {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
 }
 .navbar-rg {
-    margin-left: auto !important;
+  margin-left: auto !important;
 }
 
 .nav-pd {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.titleNav{
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-color) !important;
+.titleNav {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color) !important;
 }
 
 li {
-    padding: 0px 1.5rem;
+  padding: 0px 1.5rem;
 }
 
-.bgImage{
-   height: 50rem;
-   width: 100%;
-   position: relative;
-   margin-top: 83px;
-   
-   background-image: url('.//Assets/Backgrounds/bgMain.jpg');
-   background-size: cover;
-   background-repeat: no-repeat, no-repeat;
-   background-position: right, left; 
+.bgImage {
+  height: 50rem;
+  width: 100%;
+  position: relative;
+  margin-top: 83px;
+
+  background-image: url(".//Assets/Backgrounds/bgMain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
 }
 
-.NomeEmail{
-    display: flex;
-    place-content: space-between;
+.NomeEmail {
+  display: flex;
+  place-content: space-between;
 }
 
 .divMap {
-    width: 40%;
+  width: 40%;
 }
 
 .imgbg {
-    background-color: #3e3e3e;
-    width: 42rem;
-    height: 28rem;
-    top: 10rem;
-    left: 7rem;
-    position: relative;
+  background-color: #3e3e3e;
+  width: 42rem;
+  height: 28rem;
+  top: 10rem;
+  left: 7rem;
+  position: relative;
 }
 
 .test-me {
-    margin-bottom: 2rem;
-    text-align: center;
-    color:  #FFFFFF;
-    font-family: var(--main-font);
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--main-font);
 }
 
 .alignSection {
-    margin-top: 5rem;
-    position: relative;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
+  margin-top: 5rem;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 .leaflet-container {
-    border-radius: 20px;
-    width: auto;
-    height: 30rem;
+  border-radius: 20px;
+  width: auto;
+  height: 30rem;
 }
 
 .aboutAppText {
-    max-width: 30rem;
-    color: white;
-    text-shadow: 4px 4px black;
+  max-width: 30rem;
+  color: white;
+  text-shadow: 4px 4px black;
 }
 
-.downloadInformation{
-    max-width: 30rem;
-    color: var(--main-color);
+.downloadInformation {
+  max-width: 30rem;
+  color: var(--main-color);
 }
 
 .aboutAppTittle {
-    padding: 2rem;
-    text-align: center;
-    
+  padding: 2rem;
+  text-align: center;
 }
 
 .DownloadAppTittle {
-    padding: 2rem;
-    text-align: center;
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .DownloadAppJustifyText {
-    text-align: justify;    
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
-    font-size: 20px;
+  text-align: justify;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+  font-size: 20px;
 }
 
 .aboutAppJustifyText {
-    text-align: justify;    
-    font-size: 20px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .sectionDonwload {
-    background-color: rgb(241, 241, 245);
-    width: 100%;
-    position: relative;
-    height: 100%;
+  background-color: rgb(241, 241, 245);
+  width: 100%;
+  position: relative;
+  height: 100%;
 }
 
 .storeIconsDiv {
-    padding: 2rem;
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  padding: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .aligDownloadSection {
-    position: relative;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .sectionAbout {
-    margin-top: 40px;
-    background-color: rgb(255 255 255);
-    height: 100%;
-    width: 100%;
-    position: relative;
+  margin-top: 40px;
+  background-color: rgb(255 255 255);
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .aligAboutSection {
-    position: relative;
-    padding: 20px;
-    margin-top: 1rem;
+  position: relative;
+  padding: 20px;
+  margin-top: 1rem;
 }
 
 .about {
-    color: var(--main-color);
-    text-align: center;
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+  color: var(--main-color);
+  text-align: center;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
-
 .aboutUsFLex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: column;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
 }
 
 .aboutText {
-    max-width: 50rem;
-    margin-top: 2rem;
-    text-align: center;
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
-    font-size: 20px;
+  max-width: 50rem;
+  margin-top: 2rem;
+  text-align: center;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+  font-size: 20px;
 }
 
-.userImage{
-    height: 13rem;
-    margin-top: 5rem;
+.userImage {
+  height: 15rem;
+  width: 15rem;
+  margin-top: 5rem;
 }
 
 .ImagesDivFlex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .userProfileFlex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-flow: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
 }
 
 .userProfileText {
-    margin-top: 2rem;
-    font-family: 'Roboto';
-    color: var(--main-color);
-    font-size: 30px;
+  margin-top: 2rem;
+  font-family: "Roboto";
+  color: var(--main-color);
+  font-size: 30px;
 }
 
-.socialsFlex{
-    margin-top: 1.2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
+.socialsFlex {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .face {
-    width: 2rem;
+  width: 2rem;
 }
 
 .img-pad {
-    padding: 0px 10rem;
+  padding: 0px 10rem;
 }
 
 .socialSpace {
-    padding: 0px 1rem;
+  padding: 0px 1rem;
 }
 
 .bgContact {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    padding: 40px 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 40px 0;
 
-    background-image: url('.//Assets/Backgrounds/bgContacts.jpg');
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat;
-    background-position: right, left;
+  background-image: url(".//Assets/Backgrounds/bgContacts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
 }
 
 .mt-20 {
-    margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .contactosTitle {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .contactForm {
-    max-width: 90%;
-    margin: 0 auto;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.widthDivs {
+  width: 45%;
+}
+
+.contactFormArea {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.contactoTitles {
+  margin-top: 2rem;
+  font-family: "Roboto";
+  color: white;
+  font-size: 30px;
+}
+
+.flexBoxContactInputs {
+  margin: auto;
+  margin-top: 1.2rem;
+  width: 100%;
+  max-width: 75%;
+  padding: 0;
+}
+
+.flexBtn {
+  max-width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+  max-width: 50%;
+}
+.flexBoxContactArea {
+  margin: auto;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 75%;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.btnEnviar {
+  width: 100%;
+  height: 69px;
+  margin: auto;
+  margin-top: 5%;
+  align-items: center;
+  max-width: 75%;
+  background: rgba(0, 0, 0, 0.76);
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+textarea {
+  resize: none;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.flexBoxCpr {
+  color: var(--main-color);
+  margin-top: 2rem;
+  display: flex;
+  padding: 0px 5rem;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.nftSection {
+  background-color: lightgray;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: 15px;
+}
+
+.nftFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.nftHead {
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.nftImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+.nftImage {
+  width: 50%;
+  height: 50%;
+}
+
+.nftText {
+  margin-top: 2rem;
+  font-family: "Roboto";
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+.btnWallet {
+  background-color: #11272c;
+  border-radius: 20px;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+@media (max-width: 1500px) {
+  .bgImage {
+    height: 100%;
+  }
+
+  .flexBoxContactArea {
+    max-width: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: left;
-}
-
-.widthDivs{
-    width: 45%;
-}
-
-.contactFormArea{
-    display: flex;
-    justify-content: flex-start;
-    max-width: 90%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-.contactoTitles {
-    margin-top: 2rem;
-    font-family: 'Roboto';
-    color: white;
-    font-size: 30px;
-}
-
-.flexBoxContactInputs {
-    margin: auto;
-    margin-top: 1.2rem;
-    width: 100%;
-    max-width: 75%;
-    padding: 0;
-}
-
-.flexBtn {
-    max-width: 90%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    text-align: left;
-    max-width: 50%;
-}
-.flexBoxContactArea{
-    margin: auto;
-    display: flex;
-    padding: 0;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 75%;
-    align-items: flex-start;
-    text-align: center;
-}
-
-.btnEnviar {
-    width: 100%;
-    height: 69px;
-    margin: auto;
-    margin-top: 5%;
-    align-items: center;
-    max-width: 75%;
-    background: rgba(0, 0, 0, 0.76);
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-}
-
-textarea {
-    resize: none;
-}
-
-.footer {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-color: #FFFFFF;
-}
-
-.flexBoxCpr {
-    color: var(--main-color);
-    margin-top: 2rem;
-    display: flex;
-    padding: 0px 5rem;
-    align-items: center;
-    flex-flow: column;
-    text-align: center;
-}
-
-.nftSection {
-    background-color: lightgray;
-    width: 100%;
-    position: relative;
-    height: 100%;
-    padding: 15px;
-}
-
-.nftFlex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.nftHead {
-    color: var(--main-color);
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.nftImages {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-flow: column;
-}
-
-.nftImage {
-    width: 50%;
-    height: 50%;
-}
-
-.nftText {
-    margin-top: 2rem;
-    font-family: 'Roboto';
-    color: var(--main-color);
-    font-size: 30px;
-}
-
-@media (max-width:1500px) {
-    .bgImage{
-        height: 100%;
-    }
-
-    .flexBoxContactArea {
-        max-width: 75%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        text-align: left;
-    }
-
+  }
 }
 
 @media (max-width: 600px) {
-    .aboutText{
-        max-width: 80%;
-        margin: 0 auto;
-    }
+  .aboutText {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .btnWallet {
+    background-color: #11272c;
+    border-radius: 20px;
+    width: 11rem;
+  }
 }
