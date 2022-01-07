@@ -2,10 +2,15 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import CompanyLogo from "../Assets/logo.png";
 import LogoutImg from "../Assets/logout.png";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+toast.configure();
 export default (props) => {
   const [isLogged, setIsLogged] = useState(false);
   const [address, setAddress] = useState("");
+  const [show, setShow] = useState(true);
+
   const LogoStyle = {
     width: "6rem",
   };
@@ -41,13 +46,13 @@ export default (props) => {
       console.log("metamask is installed");
       requesteWalletAcess();
     } else {
-      console.log("No Metamask");
+      setShow(true);
+      toast.error("Precisas de ter a extensão MetaMask instalada!");
     }
   };
 
   let logout = () => {
     setIsLogged(false);
-  
   };
 
   let getButtons = () => {
@@ -115,9 +120,8 @@ export default (props) => {
                 }
               }}
               style={underline}
-           
             >
-              <li className="nav-item btnWallet" >
+              <li className="nav-item btnWallet">
                 <a className="nav-link" style={txtButton}>
                   {getButtons()}
                 </a>
