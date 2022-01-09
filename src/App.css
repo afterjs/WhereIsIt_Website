@@ -170,6 +170,7 @@ li {
 }
 
 .aboutText {
+  color: var(--main-color);
   max-width: 50rem;
   margin-top: 2rem;
   text-align: center;
@@ -245,7 +246,10 @@ li {
 
 .contactosTitle {
   text-align: center;
-  color: white;
+  color: var(--main-color);
+  margin-top: 3%;
+  margin-bottom: 15px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .contactForm {
@@ -273,8 +277,13 @@ li {
 .contactoTitles {
   margin-top: 2rem;
   font-family: "Roboto";
-  color: white;
+  /* color: white; */
   font-size: 30px;
+  color: var(--main-color);
+  /* text-align: center; */
+  margin-top: 3%;
+  margin-bottom: 15px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .flexBoxContactInputs {
@@ -338,11 +347,12 @@ textarea {
 }
 
 .nftSection {
-  background-color: lightgray;
+  background-color: rgb(241, 241, 245);
   width: 100%;
   position: relative;
   height: 100%;
   padding: 15px;
+  margin-top: 3%;
 }
 
 .nftFlex {
@@ -351,12 +361,15 @@ textarea {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .nftHead {
   color: var(--main-color);
   text-align: center;
+  margin-top: 3%;
   margin-bottom: 15px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .nftImages {
@@ -377,6 +390,7 @@ textarea {
   font-family: "Roboto";
   color: var(--main-color);
   font-size: 30px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .btnWallet {
@@ -426,7 +440,7 @@ textarea {
   }
 
   .nftSection {
-    background-color: lightgray;
+    background-color: rgb(255 255 255);
     width: 100%;
     position: relative;
     height: 100%;
@@ -456,11 +470,11 @@ textarea {
 
 @media (max-width: 600px) {
   .aboutText {
+    color: var(--main-color);
     max-width: 80%;
     margin: 0 auto;
   }
 }
-
 
 @media (max-width: 992px) {
   .btnWallet {
