@@ -81,7 +81,7 @@ export default (props) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav navbar-rg">
             <li className="nav-item">
-              <a target="_blank" className="nav-link titleNav" href="https://documenter.getpostman.com/view/18968972/UVRGFjpB">
+              <a target="_blank" className="nav-link titleNav" href="https://documenter.getpostman.com/view/18968972/UVXnGETS">
                 Documentação
               </a>
             </li>
